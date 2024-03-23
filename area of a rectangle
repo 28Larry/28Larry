@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int area(int x,int y)
+{
+return x * y;
+}
+int main()
+{
+int l,w,area;
+cout<<"enter two integer values"<< endl;
+cin>>l>>w;
+area= l* w;
+return area;
+}
